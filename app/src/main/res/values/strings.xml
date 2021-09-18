@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Meditation Timer</string>
+    <string name="text_item_display">%d\n Minutes</string>
+    <string name="button_start_display">Start</string>
+    <string name="button_stop_display">Stop</string>
+
+</resources>
