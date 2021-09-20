@@ -1,4 +1,4 @@
-package com.androidcafe.meditationtimer.view
+package com.androidcafe.meditationtimer.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

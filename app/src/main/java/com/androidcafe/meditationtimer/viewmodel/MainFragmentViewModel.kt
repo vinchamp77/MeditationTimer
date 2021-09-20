@@ -13,7 +13,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.work.*
 import com.androidcafe.meditationtimer.R
-import com.androidcafe.meditationtimer.view.MainActivity
+import com.androidcafe.meditationtimer.ui.MainActivity
 import java.util.*
 
 class MainFragmentViewModel(private val app: Application): AndroidViewModel(app) {

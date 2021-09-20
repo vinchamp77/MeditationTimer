@@ -2,9 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.androidcafe.meditationtimer">
 
-    <!-- For Future Reference -->
-    <!--uses-permission android:name="android.permission.WAKE_LOCK" /-->
-    <!--uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/-->
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -14,11 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeditationTimer">
 
-        <activity android:name=".view.MainActivity"
+        <activity android:name=".ui.MainActivity"
             android:launchMode="singleTop" >
-
-            <!-- For Future Reference -->
-            <!--android:screenOrientation="portrait"-->
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,15 +20,6 @@
             </intent-filter>
 
         </activity>
-
-        <!-- For Future Reference -->
-        <!--activity android:name=".view.LaunchActivity"
-            android:launchMode="singleTop" >
-        </activity-->
-
-        <!-- For Future Reference -->
-        <!--service android:name=".viewmodel.PlayAudioService" />
-        <receiver android:name=".viewmodel.AlarmBroadcastReceiver" android:enabled="true" android:exported="true" /-->
 
     </application>
 

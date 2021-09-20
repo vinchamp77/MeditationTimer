@@ -1,4 +1,4 @@
-package com.androidcafe.meditationtimer.view
+package com.androidcafe.meditationtimer.ui
 
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView

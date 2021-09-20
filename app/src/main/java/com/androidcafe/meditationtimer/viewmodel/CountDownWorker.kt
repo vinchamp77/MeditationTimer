@@ -13,7 +13,7 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.work.*
 import com.androidcafe.meditationtimer.R
-import com.androidcafe.meditationtimer.view.MainActivity
+import com.androidcafe.meditationtimer.ui.MainActivity
 import kotlinx.coroutines.delay
 import java.util.*
 

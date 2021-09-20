@@ -13,7 +13,7 @@
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".view.MainFragment">
+        tools:context=".ui.MainFragment">
 
         <ImageView
             android:id="@+id/imageView"
@@ -73,7 +73,6 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:text="Start" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

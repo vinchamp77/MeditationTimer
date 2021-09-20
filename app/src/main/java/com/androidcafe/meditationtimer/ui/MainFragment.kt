@@ -1,4 +1,4 @@
-package com.androidcafe.meditationtimer.view
+package com.androidcafe.meditationtimer.ui
 
 import android.content.Context
 import android.os.Bundle
@@ -27,11 +27,6 @@ class MainFragment : Fragment() {
     private val viewModel: MainFragmentViewModel by viewModels {
         ViewModelProvider.AndroidViewModelFactory(requireActivity().application)
     }
-    /* Notes: Same as above
-      private val viewModel: MainFragmentViewModel by lazy {
-          ViewModelProvider(this).get(MainFragmentViewModel::class.java)
-      }
-    */
 
     private val countDownWorkProgressObserver = Observer<WorkInfo> { workInfo: WorkInfo?  ->
         if (workInfo != null) {
@@ -77,9 +72,6 @@ class MainFragment : Fragment() {
         mainFragmentBinding.textGridRecyclerView.adapter = textGridAdapter
         registerButtonClickCallback()
 
-        //TODO (low priority): Investigate this approach
-        //mainFragmentBinding.textGridRecyclerView.addOnItemTouchListener({})
-
         return mainFragmentBinding.root
     }
 
@@ -96,26 +88,10 @@ class MainFragment : Fragment() {
         }
     }
 
-
     override fun onResume() {
         super.onResume()
 
         viewModel.countDownWorkInfo?.removeObserver(countDownWorkProgressObserver)
         viewModel.countDownWorkInfo?.observe(viewLifecycleOwner, countDownWorkProgressObserver)
     }
-
-    /*
-    override fun onPause() {
-        super.onPause()
-    }
-
-    override fun onStop() {
-        super.onStop()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-    }
-    */
-
 }
