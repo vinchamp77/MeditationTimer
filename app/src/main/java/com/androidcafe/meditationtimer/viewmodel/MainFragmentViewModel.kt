@@ -9,10 +9,6 @@ import com.androidcafe.meditationtimer.R
 
 class MainFragmentViewModel(private val app: Application): AndroidViewModel(app) {
 
-    companion object {
-        val INTENT_START_ALARM_ACTION = "IntentStartAlarmAction"
-    }
-
     private val debug: Boolean = false
 
     private val _gridViewItemDataList = MutableLiveData<List<GridViewItemData>>()
