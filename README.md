@@ -1,6 +1,9 @@
 # Meditation Timer App
 ![](app/src/main/meditation_timer_screenshot_animation.gif)
 
+## Requirements
+- Android Studio Bumblebee
+
 ## Tech Stack
 - View Model
 - Recycle View (Grid Layout Manager)
