@@ -2,7 +2,7 @@
 ![](app/src/main/meditation_timer_screenshot_animation.gif)
 
 ## Requirements
-- Android Studio Bumblebee
+- Android Studio Bumblebee or later
 
 ## Tech Stack
 - View Model
