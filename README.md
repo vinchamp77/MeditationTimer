@@ -5,8 +5,8 @@
 - Android Studio Bumblebee or later
 
 ## Tech Stack
-- View Model
-- Recycle View (Grid Layout Manager)
+- [View Model](https://vtsen.hashnode.dev/recommended-ways-to-create-viewmodel-or-androidviewmodel)
+- [Recycle View](https://vtsen.hashnode.dev/step-by-step-guides-to-implement-recycleview) (Grid Layout Manager)
 - Vibration and Media Player
 - Work Manager (Foreground Service and Notification)
 
