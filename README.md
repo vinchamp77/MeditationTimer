@@ -20,6 +20,3 @@
 
 >In theory, foreground service should prevent phone goes into sleep.  It works on my emulator (with ADB doze mode command), but not on my actual phone. So, I have no clue now.
 
-## See Also
-For other projects, refer to my [Android projects page](https://vtsen.hashnode.dev/projects).
-
