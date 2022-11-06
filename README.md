@@ -5,6 +5,7 @@
 - Android Studio Bumblebee or later
 
 ## Tech Stack
+- Android View
 - ViewModel & LiveData
 - RecycleView (Grid Layout Manager)
 - Vibration and Media Player
