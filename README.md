@@ -1,5 +1,5 @@
 # Meditation Timer App
-![](app/src/main/meditation_timer_screenshot_animation.gif)
+![](screenshots/meditation_timer_screenshot_animation.gif)
 
 ## Requirements
 - Android Studio Bumblebee or later
